@@ -1,11 +1,14 @@
 import './style.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import SectionSobreNosotros from './components/SectionSobreNosotros';
+import SectionServicios from './components/SectionServicios';
+import SectionContacto from './components/SectionContacto';
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <p class="text-3xl font-bold underline">
-      Hello World!
-    </p>
-  </div>
+  ${Header()}
+  ${Navbar()}
+  ${SectionSobreNosotros()}
+  ${SectionServicios()}
+  ${SectionContacto()}
 `;
-
-setupCounter(document.querySelector('#counter'));
