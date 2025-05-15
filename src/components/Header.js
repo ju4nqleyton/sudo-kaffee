@@ -7,7 +7,7 @@ export default function Header() {
           sudo kaffee
         </h1>
         <p class="mt-4 max-w-2xl text-sm md:text-lg lg:text-xl text-gray-300">
-          Somos expertos en computadores. Revivimos equipos antiguos con Linux, actualizamos su hardware y te asesoramos para que rinda al máximo.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod vulputate lorem, fermentum efficitur sapien fermentum eget. Proin fringilla erat.
         </p>
         <a 
           href="#quienes-somos" 
