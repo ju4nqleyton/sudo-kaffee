@@ -5,7 +5,7 @@ import img4 from '../assets/img4.jpg';
 
 export default function SectionSobreNosotros() {
   return `
-    <section id="quienes-somos" class="w-full px-4 py-16 bg-white">
+    <section id="nosotros" class="w-full px-4 py-16 bg-white">
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         
         <div>

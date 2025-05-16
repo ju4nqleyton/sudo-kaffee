@@ -1,14 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const form = document.getElementById('contact-form');
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    console.log('Nombre:', name);
-    console.log('Correo Electrónico:', email);
-  });
-});
-
 export default function SectionContacto() {
   return `
     <section id="contacto" class="min-h-screen pt-24 px-4 bg-gray-50">

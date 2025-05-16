@@ -1,6 +1,6 @@
 export default function SectionServicios() {
   return `
-    <section id="precios" class="w-full px-4 py-16 bg-white">
+    <section id="servicios" class="w-full px-4 py-16 bg-white">
       <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
         <h2 class="text-5xl md:text-5xl font-bold text-gray-900 mb-12">
           ¿qué ofrecemos?

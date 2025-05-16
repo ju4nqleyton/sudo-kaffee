@@ -6,6 +6,8 @@ import SectionServicios from './components/SectionServicios';
 import SectionContacto from './components/SectionContacto';
 import Footer from './components/Footer';
 
+import { scrollspy, contactForm } from './utils';
+
 document.querySelector('#app').innerHTML = `
   ${Header()}
   ${Navbar()}
@@ -14,3 +16,8 @@ document.querySelector('#app').innerHTML = `
   ${SectionContacto()}
   ${Footer()}
 `;
+
+document.addEventListener('DOMContentLoaded', () => {
+  scrollspy();
+  contactForm();
+});
