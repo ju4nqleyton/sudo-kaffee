@@ -53,6 +53,7 @@ export function contactForm() {
 
     const name = document.getElementById('name').value.trim().toUpperCase();
     const email = document.getElementById('email').value.trim().toLowerCase();
+    const message = document.getElementById('message').value;
 
     try {
       const res = await fetch(URL_API_POST_CONTACTS, {
@@ -60,7 +61,7 @@ export function contactForm() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name, email }),
+        body: JSON.stringify({ name, email, message }),
       });
 
       if (!res.ok) throw new Error(error);

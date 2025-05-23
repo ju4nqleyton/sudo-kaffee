@@ -31,6 +31,18 @@ export default function SectionContacto() {
             />
           </div>
 
+          <div>
+            <label for="message" class="block text-left text-gray-700 font-medium mb-2">Mensaje</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+              placeholder="Escribe tu mensaje aquí"
+              required
+            ></textarea>
+          </div> 
+
           <button 
             type="submit" 
             class="w-full bg-yellow-400 text-black font-semibold py-2 rounded-lg hover:bg-yellow-300 transition-colors duration-300"
