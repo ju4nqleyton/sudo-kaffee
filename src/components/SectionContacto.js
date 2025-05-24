@@ -3,7 +3,7 @@ export default function SectionContacto() {
     <section id="contacto" class="min-h-screen pt-24 px-4 bg-gray-50">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl md:text-5xl font-bold text-gray-900 mb-8">¿quieres contactarnos?</h2>
-        <p class="text-gray-600 mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper porttitor tortor eget convallis. Duis ullamcorper, elit et facilisis mattis, dolor felis lobortis magna, ac tristique ipsum leo non diam. Suspendisse ut justo nulla. In id mi eget lorem ornare viverra. Nulla at tristique sem.</p>
+        <p class="text-gray-600 mb-12">En sudo kaffee estamos listos para ayudarte a recuperar el rendimiento de tu computador. Si necesitas una instalación limpia de Linux, mantenimiento o mejoras de hardware, no dudes en escribirnos. Contáctanos y recibe asesoría personalizada.</p>
         
         <form id="contact-form" class="bg-white p-6 rounded-lg shadow-lg space-y-6">
           

@@ -11,10 +11,12 @@ export default function SectionSobreNosotros() {
         <div>
           <h2 class="text-5xl font-bold text-gray-900 mb-8">¿qué hace sudo kaffee?</h2>
           <p class="text-gray-700 text-base leading-relaxed mb-4 mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis augue sed enim finibus semper. Sed vehicula ligula dolor, in rhoncus justo consectetur quis. In tincidunt augue quis lobortis faucibus. Nulla vitae augue ullamcorper, vestibulum erat ut, euismod nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer tellus urna, commodo non porta ac, luctus eget dui. Proin eros lectus, pharetra eu tortor dictum, ultricies tempor ipsum. 
+            En sudo kaffee somos un emprendimiento local con base en la ciudad de 
+            <span class="font-bold text-lg text-yellow-700">Ibagué</span>. Nuestro propósito es claro: brindar soluciones reales a los problemas tecnológicos de las personas. Nos especializamos en revivir computadores antiguos o lentos mediante la implementación de sistemas 
+            <span class="font-bold text-lg text-yellow-700">Linux</span> ligeros, seguros y eficientes. 
           </p>
           <p class="text-gray-700 text-base leading-relaxed">
-            Vivamus efficitur nisi vel dui aliquet, sit amet eleifend erat tincidunt. Phasellus porta placerat semper. Ut imperdiet, velit eu iaculis ornare, neque erat fringilla ligula, vitae luctus ex ante semper mauris. Aenean dapibus sit amet purus non accumsan. In posuere diam sed justo pulvinar, a lobortis tellus dapibus. Quisque ultricies lorem sed purus egestas, scelerisque sagittis risus consectetur. Suspendisse consequat gravida convallis. Donec eu augue efficitur, gravida justo vel, accumsan ex.
+            Creemos firmemente que la <span class="font-bold text-yellow-700">obsolescencia</span> no debe ser el destino de tu equipo. Cada máquina tiene potencial, y nosotros nos encargamos de devolverle la vida. Nos enorgullece ofrecer un servicio rápido, honesto y personalizado, convirtiéndonos en una de las mejores opciones de la ciudad.
           </p>
         </div>
 
