@@ -1,6 +1,6 @@
-import img1 from '../assets/img1.jpg';
-import img2 from '../assets/img2.jpg';
-import img3 from '../assets/img3.jpg';
+import img5 from '../assets/img5.jpg';
+import img6 from '../assets/img6.jpg';
+import img7 from '../assets/img7.jpg';
 
 function createCard(title, price, idModal, img) {
   return `
@@ -67,19 +67,19 @@ export default function SectionServicios() {
             'Instalación de Linux desde cero',
             '$30k',
             'servicio1',
-            img1
+            img5
           )}
           ${createCard(
             'Linux + Mantenimiento Interno',
             '$60k',
             'servicio2',
-            img2
+            img6
           )}
           ${createCard(
             'Linux + Mantenimiento + Mejora de Hardware',
             '$90k',
             'servicio3',
-            img3
+            img7
           )}
         </div>
       </div>

@@ -1,7 +1,9 @@
 import Toastify from 'toastify-js';
 import 'toastify-js/src/toastify.css';
 
-const URL_API_POST_CONTACTS = 'http://localhost:3000/contacts/';
+// const URL_API_POST_CONTACTS = 'http://localhost:4000/contacts/';
+const URL_API_POST_CONTACTS =
+  'https://sudo-kaffee-server.onrender.com/contacts/';
 
 export function scrollspy() {
   const toggle = document.getElementById('menu-toggle');
