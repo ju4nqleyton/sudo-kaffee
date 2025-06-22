@@ -1,9 +1,10 @@
+import emailjs from '@emailjs/browser';
 import Toastify from 'toastify-js';
 import 'toastify-js/src/toastify.css';
 
-// const URL_API_POST_CONTACTS = 'http://localhost:4000/contacts/';
-const URL_API_POST_CONTACTS =
-  'https://sudo-kaffee-server.onrender.com/contacts/';
+const SERVICE_ID = 'service_tclv9wb';
+const TEMPLATE_ID = 'template_kfbjt9u';
+const PUBLIC_KEY = 'oGepLHNgumrcZ8Joy';
 
 export function scrollspy() {
   const toggle = document.getElementById('menu-toggle');
@@ -48,25 +49,25 @@ export function scrollspy() {
 
 export function contactForm() {
   const form = document.getElementById('contact-form');
+  const spinner = document.getElementById('spinner');
   if (!form) return;
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    const name = document.getElementById('name').value.trim().toUpperCase();
-    const email = document.getElementById('email').value.trim().toLowerCase();
-    const message = document.getElementById('message').value;
+    if (spinner) spinner.style.display = 'block';
 
     try {
-      const res = await fetch(URL_API_POST_CONTACTS, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, message }),
-      });
+      const response = await emailjs.sendForm(
+        SERVICE_ID,
+        TEMPLATE_ID,
+        form,
+        PUBLIC_KEY
+      );
 
-      if (!res.ok) throw new Error(error);
+      if (response.status !== 200) {
+        throw new Error(response.text || 'Error al enviar el formulario');
+      }
 
       Toastify({
         text: 'Datos enviado correctamente',
@@ -92,6 +93,8 @@ export function contactForm() {
       }).showToast();
 
       console.error(error);
+    } finally {
+      if (spinner) spinner.style.display = 'none';
     }
   });
 }

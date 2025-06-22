@@ -65,19 +65,19 @@ export default function SectionServicios() {
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           ${createCard(
             'Instalación de Linux desde cero',
-            '$30k',
+            '$35k',
             'servicio1',
             img5
           )}
           ${createCard(
             'Linux + Mantenimiento Interno',
-            '$60k',
+            '$70k',
             'servicio2',
             img6
           )}
           ${createCard(
             'Linux + Mantenimiento + Mejora de Hardware',
-            '$90k',
+            '$100k',
             'servicio3',
             img7
           )}
